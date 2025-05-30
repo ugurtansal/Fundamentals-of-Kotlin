@@ -41,4 +41,15 @@ fun main() {
         else -> println("y is something else")
 
     }
+
+    val number=1;
+
+    when(number){
+        1-> {
+            print("One")
+            println("Another line for One")
+        }
+        2-> println("Two")
+        else-> println("Unknown")
+    }
 }
